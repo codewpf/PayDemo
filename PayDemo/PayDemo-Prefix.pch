@@ -1,0 +1,23 @@
+//
+//  PayDemo-Prefix.pch
+//  PayDemo
+//
+//  Created by wpf on 15/12/30.
+//  Copyright © 2015年 wpf. All rights reserved.
+//
+
+#ifndef PayDemo_Prefix_pch
+#define PayDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppMethod.h"
+#import "AppUtils.h"
+#import "CommonInfo.h"
+
+
+
+
+
+#endif /* PayDemo_Prefix_pch */
