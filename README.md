@@ -58,6 +58,8 @@
   
   然后接收到数据的返回。其中返回数据中有用的只有prepayid，其他的要么本地就有，要么就是恶心你的值。
   
+2、客户端调起支付
+  
   https://pay.weixin.qq.com/wiki/doc/api/app.php?chapter=9_1    ->API列表->调起支付接口
   文档要求appid，partnerid，prepayid，package，noncestr，timestamp，sign这七个参数是必须的，但是DEMO中appid根本没有用到，所以其实只需要六个参数，这是第二个坑爹的地方！！！
   partnerid就是第一步的mch_id，prepayid是上一步返回的最重要的数据，package传定值Sign=WXPay，noncestr就是上一步中的nonce_str，timestamp这个按照规则生成十位的。
@@ -67,3 +69,9 @@
   对于返回签名错误的，可以对照他们的签名测试工具检验。https://pay.weixin.qq.com/wiki/tools/signverify/
 
 以上~  
+
+因安全原因项目中的一些配置参数已经删除，大家调试的时候需要添加本公司或个人申请的配置参数。
+
+如有问题可发邮件至iOS_wpf@163.com、ioswpf@gmail.com，或新浪微博私信@弯弯月儿变鸟飞
+
+
