@@ -10,6 +10,7 @@
 #ifndef CommonInfo_h
 #define CommonInfo_h
 
+#pragma mark - 三方框架引用
 //define this constant if you want to use Masonry without the 'mas_' prefix
 #define MAS_SHORTHAND
 //define this constant if you want to enable auto-boxing for default syntax
@@ -20,6 +21,8 @@
 #import <XMLDictionary/XMLDictionary.h>
 
 
+
+#pragma mark - SDK引用
 #import "WXApi.h"
 #import "WXApiManager.h"
 #import "WXApiRequestHandler.h"

@@ -15,7 +15,7 @@
 #define AlipayPARTNER           @""
 #define AlipaySELLER            @""
 #define AlipayRSA_PRIVATE       @""
-#define AlipayRSA_ALIPAY_PUBLIC @"";
+#define AlipayRSA_ALIPAY_PUBLIC @""
 //获取服务器端支付数据地址（商户自定义）
 #define AlipayBackURL           @""
 
@@ -29,9 +29,6 @@
 #define WeChatPARTNER_ID              @""
 //支付结果回调页面
 #define WeChatNOTIFY_URL              @""
-//获取服务器端支付数据地址（商户自定义）
-#define SP_URL                  @""
-//http://pay1.fujin.com/aspx/alipayreturn_m.aspx?f=app1
 
 
 #pragma mark - 方法替换等
